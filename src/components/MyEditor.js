@@ -116,7 +116,7 @@ function MyEditor({
   }, []);
 
   return (
-    <div className="py-4 border-2 border-[#98bdf2] h-[400px] rounded-[20px] bg-zinc-300 ">
+    <div className="py-4 border-2 border-[#98bdf2] rounded-[20px] bg-zinc-300  ">
       <Editor
         ref={editorRef}
         editorState={editorState}

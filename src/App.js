@@ -1,4 +1,10 @@
-import { EditorState, convertFromRaw, convertToRaw } from "draft-js";
+import {
+  EditorState,
+  convertFromRaw,
+  convertToRaw,
+  ContentState,
+  SelectionState,
+} from "draft-js";
 import { useEffect, useState } from "react";
 import "./App.css";
 import Button from "./components/Button.js";
