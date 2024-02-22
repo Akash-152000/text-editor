@@ -46,12 +46,30 @@ function App() {
         <Toaster />
       </div>
       <div className="px-[35px] mt-[50px]">
-        <div className="flex mb-4">
+        <div className="sm:flex mb-4 ">
           <Title />
           <Button
             editorState={editorState}
             saveDataToLocalStorage={saveDataToLocalStorage}
           />
+        </div>
+        <div className="flex flex-col items-start text-[14px]">
+          <span>
+            <b>{`# + space :`}</b>
+            {` Add a heading`}
+          </span>
+          <span>
+            <b>{`* + space :`}</b>
+            {` Add Bold`}
+          </span>
+          <span>
+            <b>{`** + space :`}</b>
+            {` Add red text color`}
+          </span>
+          <span>
+            <b>{`*** + space :`}</b>
+            {` Add underline`}
+          </span>
         </div>
         <MyEditor
           editorState={editorState}
